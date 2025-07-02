@@ -34,7 +34,7 @@ Purvsoft Chatbot is an interactive web-based chatbot built to guide learners and
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python (Django or Flask)
-- **Chatbot Engine:** Rule-based logic or NLP model (e.g., Rasa / OpenAI)
+- **Chatbot Engine:** Rule-based logic or NLP model
 - **Hosting:** Local server (`127.0.0.1:8000`)
 - **UI Tools:** Custom CSS, Flexbox/Grid, possibly TailwindCSS or Bootstrap
 
@@ -44,5 +44,5 @@ Purvsoft Chatbot is an interactive web-based chatbot built to guide learners and
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/purvsoft-chatbot.git
+   git clone https://github.com/kuldip031104/purvsoft-chatbot.git
    cd purvsoft-chatbot

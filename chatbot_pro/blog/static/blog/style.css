@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #333;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px #ccc;
+}
+
+.chat-area {
+  width: 100%;
+  max-width: 1200px;
+  height: calc(100vh - 180px); /* Adjust height as needed */
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+/* Bot message */
+.boxtest {
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 12px 18px;
+  border-radius: 16px;
+  margin: 12px 0;
+  max-width: 75%;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* User message */
+.userText {
+  text-align: right;
+  margin: 12px 0;
+}
+.userText span {
+  background-color: #00796b;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 16px;
+  display: inline-block;
+  max-width: 75%;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Input Area */
+#userInput {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px 40px 20px;
+  box-sizing: border-box;
+}
+
+#textInput {
+  flex-grow: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+
+#textInput:focus {
+  border-color: #00796b;
+}
+
+#buttonInput {
+  padding: 12px 24px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+#buttonInput:hover {
+  background-color: #004d40;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #userInput {
+    flex-direction: column;
+  }
+
+  #buttonInput {
+    width: 100%;
+  }
+}
